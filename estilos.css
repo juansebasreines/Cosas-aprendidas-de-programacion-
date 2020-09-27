@@ -1,0 +1,108 @@
+header {background: #282c34}
+
+/* el background rellena ese bloque de un color**/
+
+
+
+h1 {
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+
+/* font-size: da el tamaño, font-family: da el tipo de letra
+font-weight: da como peso o grosor a la letra**/
+
+h2 { 
+	font-weight: lighter;
+	font-size: 17px;
+	font-family: sans-serif;
+}
+
+header, section, footer, nav, article {
+	display: block;
+}
+
+/* en el anterior seleccione practicamente todos los bloques 
+del html y le dije que lo pusiera en bloque o sea uno debajo
+del otro**/
+
+body {
+	text-align: center; 
+}
+
+/* text-align: la alineacion del bloque al que se lo asignas**/
+
+.midiv {
+	width: 880px;
+	margin: auto;
+}
+
+.header {
+	background: #535c68;
+	border: 3px solid #7ed6df;
+	padding: 20px;
+	text-align: left;
+}
+
+/* el padding es un espaciado pero como relleno**/
+
+.browser{
+	background: #FFFBB9;
+	padding: 5px 7px;
+	text-align: left;
+}
+
+.browser li {
+	list-style: none;
+	padding: 3px;
+	font:bold 14px verdana;
+	display: inline-block;
+}
+
+/* el font lo que hace es ponerle cierto tipo de letra en este caso 
+de fuente verdana**/
+
+.seccion {
+	margin: 30px;
+	width: 60%;
+	float: left;
+}
+
+article{
+	background: #7ed6df;
+	border: 1px solid black;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+/* el margin-bottom es una margen o espaciado **/
+
+article footer {
+	text-align: right;
+}
+
+time {
+	color: #999;
+}
+
+.columna{
+	width: 250px;
+	float: left;
+	border: 1px solid black;
+	margin: 20px 0;
+	background: aqua;
+}
+
+/*el float hace que los elementos "floten"
+al principio ese display hizo que fueran tipo bloque
+o sea que este uno debajo del otro**/
+
+.pie{
+	clear: both;
+	padding: 15px;
+	background:black;
+	margin-bottom: 5px;
+	color: white; 
+}
+
